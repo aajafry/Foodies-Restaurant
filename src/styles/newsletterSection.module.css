@@ -1,0 +1,38 @@
+/*
+###### newsletter-section CSS ##########
+*/
+
+.newsletter {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.newsletter .form_control {
+  height: 3.225rem;
+  width: 100%;
+  padding: 0 1.25rem;
+  border: 0.1875rem solid var(--text-gray);
+  border-radius: 0;
+  background: transparent;
+  color: var(--black-color);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.newsletter .form_control:focus,
+.newsletter .form_control:hover {
+  outline: none;
+  box-shadow: none;
+  border: var(--primary-color);
+}
+
+@media (max-width: 767px) {
+  .newsletter {
+    width: 75%;
+  }
+
+  .newsletter .main_btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

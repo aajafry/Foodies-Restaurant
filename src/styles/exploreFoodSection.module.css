@@ -1,0 +1,31 @@
+/*
+###### explore-food-section CSS ##########
+*/
+
+.explore_food .card_sec {
+  border: none;
+  background-color: transparent;
+  border-radius: 0.9375rem;
+  text-align: center;
+}
+.explore_food .card_sec img {
+  border-radius: 0.9375rem;
+  object-fit: cover;
+}
+
+.explore_food .card_sec h4 {
+  margin-top: 2rem;
+}
+
+.explore_food .card_sec span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  border-radius: 0.0625rem solod #eee;
+}
+.explore_food .card_sec span del {
+  color: var(--text-gray);
+  margin-left: 0.5rem;
+}

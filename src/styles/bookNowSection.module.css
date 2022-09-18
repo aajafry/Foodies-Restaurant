@@ -1,0 +1,16 @@
+/*
+###### booknow-section CSS ##########
+*/
+
+.booknow_section {
+  width: 100%;
+  background: url("../assets/images/bg/bg-3.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+}
+
+.booknow_section h2 {
+  color: var(--white-color);
+}

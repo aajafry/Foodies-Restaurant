@@ -1,0 +1,9 @@
+/*
+###### faq-section CSS ##########
+*/
+
+.faq_section h4 span {
+  color: var(--primary-color);
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}

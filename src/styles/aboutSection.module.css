@@ -1,0 +1,40 @@
+/*
+###### about-section CSS ##########
+*/
+
+.about_section {
+  background: var(--white-color);
+}
+
+.card_sec,
+.card_sec img {
+  border-radius: 0.625rem;
+}
+.text_sec {
+  padding-left: 2rem;
+}
+
+.food_type {
+  padding-top: 3.25rem;
+}
+
+.food_type ul li {
+  color: var(--text-color);
+  font-size: 1rem;
+  line-height: 32px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.food_type ul li::before {
+  position: absolute;
+  left: -2.1875rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+}

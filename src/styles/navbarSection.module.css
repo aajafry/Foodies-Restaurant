@@ -1,0 +1,62 @@
+/*
+###### header-section CSS ##########
+*/
+
+.navigation_wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 10000;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+}
+
+.navigation_wrap .nav_item {
+  padding: 0 0.625rem;
+  transition: all 20ms linear;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: unset;
+  outline: unset;
+}
+
+.nav_link {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--primary-color) !important;
+  letter-spacing: 1px;
+}
+.nav_link:focus,
+.nav_link:hover {
+  color: #0a58ca !important;
+}
+.navigation_wrap .main_btn {
+  padding: 0.3125rem 1.4375rem;
+  box-shadow: none;
+  margin-left: 0.625rem;
+}
+
+.navigation_wrap.scroll-on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--white-color);
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.9);
+}
+
+@media (max-width: 991px) {
+  .navigation_wrap .navbar-brand img {
+    height: 3.8125rem;
+  }
+  .navigation_wrap {
+    text-align: center;
+    background-color: var(--white-color);
+  }
+  .navigation_wrap .nav_link {
+    line-height: 1.875rem;
+  }
+}

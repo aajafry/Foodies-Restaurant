@@ -1,0 +1,21 @@
+/*
+###### banner-section CSS ##########
+*/
+.top_banner {
+  width: 100%;
+  padding: 16.875rem 0 9.375rem;
+  background: url("../assets/images/bg/bg-1.jpg") no-repeat center;
+  block-size: cover;
+}
+
+@media (max-width: 991px) {
+  .top_banner {
+    padding: 9.375rem 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .top_banner {
+    padding: 10.875rem 0 9.375rem;
+  }
+}
